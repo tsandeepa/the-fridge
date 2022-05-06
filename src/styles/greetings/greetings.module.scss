@@ -1,0 +1,12 @@
+.greetBox{
+    background: #FFFFFF;
+    border: 1px solid #E3E9F1;
+    border-radius: 8px;
+    text-align: center;
+    &__title{
+        color: #003A59;
+    }
+    &__tagLine{
+        color: #728197;
+    }
+}

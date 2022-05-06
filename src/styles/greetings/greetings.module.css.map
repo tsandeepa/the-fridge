@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,MAAM;CAOrB;;AANI,AAAD,gBAAQ,CAAA;EACJ,KAAK,EAAE,OAAO;CACjB;;AACA,AAAD,kBAAU,CAAA;EACN,KAAK,EAAE,OAAO;CACjB",
+    "sources": [
+        "greetings.module.scss"
+    ],
+    "names": [],
+    "file": "greetings.module.css"
+}

@@ -1,0 +1,15 @@
+.greetBox {
+  background: #FFFFFF;
+  border: 1px solid #E3E9F1;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.greetBox__title {
+  color: #003A59;
+}
+
+.greetBox__tagLine {
+  color: #728197;
+}
+/*# sourceMappingURL=greetings.module.css.map */
