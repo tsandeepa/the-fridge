@@ -7,7 +7,7 @@ const ItemsList = () => {
     
     const [data, setData] = useState();
     const [isLoading, setisLoading] = useState(false);
-    const URL = 'https://thefridge-api.karapincha.io/fridge';
+    const URL = 'https://thefridge-api.karapincha.io/fridge/';
     
     useEffect(() => {
         setisLoading(true)
@@ -18,16 +18,20 @@ const ItemsList = () => {
         });
     }, []);
 
+    const handleDelete = (id) =>{
+            console.log(id);
+            axios.delete(URL+id).then(res=> console.log(res))
+    }
+
     return ( 
         <div className={itemsList.list__contaainer}>
-            <h4>Item List</h4>
             {isLoading && <div>LOADING</div>}
 
             {
                 <div className={itemsList.list}>
                     {   data &&
                         data.map((item,i)=>(
-                            <Item item={item} key={i}/>
+                            <Item item={item} handleDelete={handleDelete} key={i}/>
                         ))
                     }
                 </div>
