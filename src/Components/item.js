@@ -1,6 +1,9 @@
 import oneItem from '../styles/item/item.module.css'
+import useFetch from './useFetch';
 
 const Item = ({item,handleDelete}) => {
+
+
     return ( 
         <div className={oneItem.item}>
             <div>
